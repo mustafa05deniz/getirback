@@ -48,5 +48,7 @@ app.use(function (err, req, res, next) {
 
 });
 app.listen(config.PORT, function () {
-  console.info("server is running "+"http://"+config.HOST+":"+config.PORT)
+  console.info("server is running "+config.PORT)
 });
+
+module.exports = app;

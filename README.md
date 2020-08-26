@@ -36,3 +36,13 @@ curl --location --request POST 'https://getirback.herokuapp.com/records/filtered
     
 
 
+Test 
+
+   npm test 
+
+Test Result 
+
+Records Filtered Data
+connection true
+    ✓ POST: records (1664ms)
+  1 passing (2s)

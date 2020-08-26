@@ -23,7 +23,7 @@ app.use(bodyParser.urlencoded({ extended: true, limit: '50mb' }));
 
 
 app.get('/', function (req, res) {
-  res.json({ "name": "getir case ","date":"26.08.2020" });
+  res.json({ "name": "getir case","date":"26.08.2020","author":"mustafa05deniz@gmail.com","github":"https://github.com/mustafa05deniz/getirback" });
 });
 
 app.use('/records', cors(), record);

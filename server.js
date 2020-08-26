@@ -23,7 +23,7 @@ app.use(bodyParser.urlencoded({ extended: true, limit: '50mb' }));
 
 
 app.get('/', function (req, res) {
-  res.json({ "get": "back" });
+  res.json({ "name": "getir case ","date":"26.08.2020" });
 });
 
 app.use('/records', cors(), record);

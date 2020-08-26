@@ -47,6 +47,6 @@ app.use(function (err, req, res, next) {
     res.status(500).json({ status: 500, message: "server error" ,data:null});
 
 });
-app.listen(config.PORT,config.HOST, function () {
+app.listen(config.PORT, function () {
   console.info("server is running "+"http://"+config.HOST+":"+config.PORT)
 });

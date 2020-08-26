@@ -1,0 +1,27 @@
+{
+  "name": "getirback",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mustafa05deniz/getirback.git"
+  },
+  "keywords": [
+    "getir",
+    "mustafa05deniz",
+    "backEnd"
+  ],
+  "author": "mustafa05deniz@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mustafa05deniz/getirback/issues"
+  },
+  "homepage": "https://github.com/mustafa05deniz/getirback#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

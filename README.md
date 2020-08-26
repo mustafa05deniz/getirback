@@ -67,10 +67,9 @@ add new file my.json with name , and put this code
 ```shell
 $ ab -n 100 -p my.json -T application/json http://127.0.0.1:8080/records/filteredRecords
 ```
-C:\xampp\apache\bin>ab -n 100 -p my.json -T application/json http://127.0.0.1:8080/records/filteredRecords
-This is ApacheBench, Version 2.3 <$Revision: 1826891 $>
-Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
-Licensed to The Apache Software Foundation, http://www.apache.org/
+
+
+```json
 
 Benchmarking 127.0.0.1 (be patient).....done
 
@@ -113,3 +112,5 @@ Percentage of the requests served within a certain time (ms)
   98%    179
   99%    181
  100%    181 (longest request)
+
+```

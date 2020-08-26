@@ -1,29 +1,30 @@
 
-Demo
+## Demo
 
     https://getirback.herokuapp.com/
 
-Installation 
+## Installation 
 
+```shell
     npm install && npm start 
+```
+## Structure
 
-Structure 
+- _helpers
+    response helpers and production Back logs 
+- controllers 
+    main functions
+- functions 
+    global functions , other controllers can use that other functions 
+- model
+    mongoose model structure 
+- routes
+    routing and validations 
+
+## Apis  Postman
 
 
-..... _helpers     // response helpers and production Back logs 
-
-..... controllers  // main functions
-
-..... functions  // global functions , other controllers can use that other functions 
-
-..... model     // mongoose model structure 
-
-..... routes   // routing and validations 
-
-
-
-Apis Postman
-
+```curl
 
 curl --location --request POST 'https://getirback.herokuapp.com/records/filteredRecords' \
 --header 'Content-Type: application/json' \
@@ -34,13 +35,14 @@ curl --location --request POST 'https://getirback.herokuapp.com/records/filtered
 	"maxCount": 3000
 }'
     
+```
 
+## Test 
+```shell
+$ npm test 
+```
 
-Test 
-
-   npm test 
-
-Test Result 
+## Test Result 
 
 Records Filtered Data
 connection true

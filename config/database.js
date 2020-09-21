@@ -3,7 +3,7 @@
 
 
 const mongoose = require('mongoose');
-const mongoDB = "mongodb+srv://challengeUser:WUMglwNBaydH8Yvu@challenge-xzwqd.mongodb.net/getir-case-study?retryWrites=true"
+
 const options = {
     useNewUrlParser: true,
     useUnifiedTopology: true,

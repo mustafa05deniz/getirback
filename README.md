@@ -1,7 +1,22 @@
 
+## Models 
+
+ticket model
+
+status :  0=opened , 1=waiting for admin respond , 2=waiting for user respond , 3=closed
+
+user model 
+
+role :    0=admin , 1=normal user
+
+
 ## Demo
 
-    https://getirback.herokuapp.com/
+    
+
+## Error
+
+npm install bcrypt@3.0.6 --save
 
 ## Installation 
 

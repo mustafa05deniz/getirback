@@ -1,27 +1,32 @@
 {
-  "name": "getirback",
+  "name": "ipsizcambaz",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
-    "test": "mocha --exit"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mustafa05deniz/getirback.git"
+    "url": "git+https://github.com/mustafa05deniz/ipsizcambazworktask.git"
   },
   "keywords": [
-    "getir",
-    "mustafa05deniz",
-    "backEnd"
+    "ipsizcambaz",
+    "case",
+    "homework"
   ],
   "author": "mustafa05deniz@gmail.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mustafa05deniz/getirback/issues"
+    "url": "https://github.com/mustafa05deniz/ipsizcambazworktask/issues"
   },
-  "homepage": "https://github.com/mustafa05deniz/getirback#readme",
+  "homepage": "https://github.com/mustafa05deniz/ipsizcambazworktask#readme",
   "dependencies": {
+    "bcrypt": "^3.0.6",
     "body-parser": "^1.19.0",
     "chai": "^4.2.0",
     "chai-http": "^4.3.0",
